@@ -1,0 +1,19 @@
+IP: http://34.117.57.110/
+
+Project ID: submission-jelvinkrisnaputra
+
+=============================================================
+
+VM CPU Mean : untuk mengukur rata-rata besar pemakaian cpu
+
+Disk average latency Sum: untuk mengetahui jumlah latensi semua operasi baca dan tulis pada disk
+
+VM Received Bytes Sum: untuk mengukur total data yang masuk ke VM dalam satuan bytes
+
+VM Sent Bytes Sum: untuk mengukur total data yang keluar dari VM dalam satuan bytes
+
+=============================================================
+
+machine type: E2-micro ~ karena aplikasi ini tidak membutuhkan komputasi yang tinggi
+region: asia-southeast2 dan europe-west2 ~ karena pelanggan tersebar di kedua region ini
+tipe-load: HTTP(S) Load Balancer ~ karena traffic yang dilayani adalah http network
